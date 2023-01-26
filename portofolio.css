@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat';
+}
+
+.navbar{
+    height: 100px;
+    padding: 0 90px;
+    display: flex; 
+    justify-content: space-between;
+    align-items:center;
+    border-bottom: 1px solid #eee;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.link-btn{
+    display:flex;
+    align-items:center;
+}
+
+.link-btn a{
+    text-decoration:none;
+    margin:0px 15px;   
+    color:black; 
+}
+
+.link-btn a .third{
+    color: #fff;
+    background-color: #205295;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.case-kerjasama h3{
+    font-size:28px;
+    text-align: center;
+    padding:60px 0;
+}
+
+.case-merk{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .kotak{
+    height: 250px;
+    width: 250px;
+    background-color: #ffffff;
+    filter: drop-shadow(0px 1px 14px rgba(0, 0, 0, 0.15));
+    border-radius: 8px;
+    margin:35px 0 15px 0; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .kotak img{
+    width:50%;
+  }
+  
+  .case-store{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+  }
+  
+  .store-img{
+    display:flex;
+    width:100%;
+  }
+  
+  .store-img img{
+    width:750px;
+    display:flex;
+    align-items: flex-start;
+  }
+
+  .testimonial-section {
+    background-image: url('../images/Kosong\ 3\ Panel\ Potret\ Komik\ Strip.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .testimonial-section .featured-block {
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius-medium);
+    margin-bottom: 24px;
+    padding: 30px;
+  }
+  
+  .testimonial-section .featured-block h4,
+  .testimonial-section .featured-block p {
+    color: var(--white-color);
+  }
+
+  .case-testimoni{
+    /* background-color:#000000; */
+    padding:50px 50px;
+    display:flex;
+    align-items: center;
+    /* background-color:blue; */
+}
+
+.testimoni{
+    /* background-color:red; */
+    display:flex;
+    justify-content:space-between;
+    margin: 0 15px;
+}
+
+.ulas{
+    display: grid;
+    padding: 50px 35px;
+    filter: drop-shadow(0px 1px 14px rgba(0, 0, 0, 0.15));
+    background-color: #ffffff;
+    height: 100px;
+    width: 257px;
+    /* text-align: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+
+
+.ulas h1{
+    padding: 0px 0;
+    /* height:40px; */
+    /* background-color:blue; */
+}
+
+.ulas p{
+    padding: 0 0;
+    /* background-color:red; */
+}
+
+.ulas button {
+    border: none;
+    padding: 12px;
+    color: #ffffff;
+    background-color: #205295;
+    text-align: center;
+    cursor: pointer;
+    width: 70%;
+    font-size: 18px;
+}
+
+.ulas p button{
+    color: #ffffff;
+    border-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.case-footer{
+  background-color:#205295;
+  padding:50px;
+}
+
+.footer{
+  align-items:center;
+  height: 250px;
+}
+
+.footer ul{
+  text-align:center;
+  /* background-color:red; */
+  justify-content:space-around;
+}
+
+.footer li{
+  display:flex ;
+  text-align:center;
+  justify-content:space-between;
+  color:#ffffff;
+  padding:0 50px;
+}
+
+.footer h1{
+  Color:#ffffff;
+  margin-top:1px;
+}
+
+.footer p{
+  color:#fff;
+  font-size: 16px;
+  align-items:center;
+  letter-spacing: 0.05em;
+  line-height: 24px;
+}
+
+.link-footer{
+  display:flex ;
+  justify-content:center;
+  margin:40px 0;
+  list-style: none;
+  font-size:18px;
+} 
+
+.link-footer a{
+  text-decoration: none;
+  align-items: end;   
+}

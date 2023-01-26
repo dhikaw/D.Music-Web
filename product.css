@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat';
+}
+
+a {
+    color: #000000;
+}
+
+.navbar{
+    height: 100px;
+    padding: 0 90px;
+    display: flex; 
+    justify-content: space-between;
+    align-items:center;
+    border-bottom: 1px solid #eee   ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.link-btn{
+    display:flex;
+    align-items:center;
+}
+
+.link-btn a{
+    text-decoration:none;
+    margin:0px 15px;    
+}
+
+.link-btn a .main{
+    color: #fff;
+    background-color: #205295;
+    padding:10px;
+    border-radius: 5px;
+} 
+
+
+.container-product{
+    background-color: red;
+
+}
+.container-product .case{
+    display: flex;
+}
+.container-product .case .kotak {
+    /* width:500px; */
+    background-color: #205295;
+    border-radius: 10px;
+
+
+}
+.container-product .case .kotak .marginn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: auto; 
+
+}
+.kotak img{
+    width: 50%; 
+}
+.container-product .case .kotak .case-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: start
+}
+
+.harga{
+    color: rgb(2, 2, 2);
+    font-size: 22px;
+}
+
+.case-produk{
+    /* background-color:#000000; */
+    padding:35px 85px;
+    margin: 50px 0;
+}
+
+.produk{
+    /* background-color:red; */
+    display:flex;
+    justify-content:space-between;
+}
+
+.kotak{
+    display: grid;
+    padding: 25px 50px 85px 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: #ffffff;
+    height: 500px;
+    max-width: 300px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+
+.kotak img{
+    width: 277px;
+    height: 309px;
+    border-radius:10px;
+    margin: 0 0 25px 0;
+}
+
+.kotak h1{
+    padding: 10px 0;
+    height:75px;
+}
+
+.kotak p{
+    padding: 10px 0;
+}
+
+.kotak button {
+    border: none;
+    padding: 12px;
+    color: #ffffff;
+    background-color: #205295;
+    text-align: center;
+    cursor: pointer;
+    width: 70%;
+    font-size: 18px;
+}
+
+.kotak p button{
+    color: #ffffff;
+    border-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.case-footer{
+    background-color:#205295;
+    padding:50px;
+}
+
+.footer{
+    align-items:center;
+    height: 250px;
+}
+
+.footer ul{
+    text-align:center;
+    /* background-color:red; */
+    justify-content:space-around;
+}
+
+.footer li{
+    display:flex ;
+    text-align:center;
+    justify-content:space-between;
+    color:#ffffff;
+    padding:0 50px;
+}
+
+.footer h1{
+    Color:#ffffff;
+    margin-top:1px;
+}
+
+.footer p{
+    color:#fff;
+    font-size: 16px;
+    align-items:center;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+}
+
+.link-footer{
+    display:flex ;
+    justify-content:center;
+    margin:40px 0;
+    list-style: none;
+    font-size:18px;
+} 
+
+.link-footer a{
+    text-decoration: none;
+    align-items: end;   
+}
+

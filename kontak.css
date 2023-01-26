@@ -1,0 +1,127 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Montserrat';
+}
+
+a {
+  color: #000000;
+}
+
+.navbar{
+  height: 100px;
+  padding: 0 90px;
+  display: flex; 
+  justify-content: space-between;
+  align-items:center;
+  border-bottom: 1px solid #eee   ;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.link-btn{
+  display:flex;
+  align-items:center;
+}
+
+.link-btn a{
+  text-decoration:none;
+  margin:0px 15px;    
+}
+
+.case-img .img-kontak img{
+  height:580px;
+  /* margin: 150px; */
+}
+
+.img-kontak{
+  margin-top: 150px;
+  margin-left:200px;
+  display:flex;
+  align-items:center;
+  /* background-color: red; */
+  colors:black;
+  text-decoration: none;
+}
+
+.img-kontak h4{
+  /* margin:200px 0; */
+  font-size:24px;
+  /* background-color:yellow; */
+  display:flex;
+  justify-content:between;
+
+}
+
+.img-kontak .link-anu .link{
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* background-color:orange; */
+}
+
+.link-anu{
+  /* background-color:purple; */
+}
+
+.img-kontak .link-anu .link h2{
+}
+
+.img-kontak .link-anu .link img{
+  width: 100px;
+  height:100px;
+  display:flex;
+  /* background-color:green; */
+}
+
+.case-footer{
+  background-color:#205295;
+  padding:50px;
+  margin-top:100px;
+  margin-buttom:10px;S
+  height:350px;
+}
+
+.footer{
+  align-items:center;
+  height: 250px;
+}
+
+.footer ul{
+  text-align:center;
+  /* background-color:red; */
+  justify-content:space-around;
+}
+
+.footer li{
+  display:flex ;
+  text-align:center;
+  justify-content:space-between;
+  color:#ffffff;
+  padding:0 50px;
+}
+
+.footer h1{
+  Color:#ffffff;
+  margin-top:1px;
+}
+
+.footer p{
+  color:#fff;
+  font-size: 16px;
+  align-items:center;
+  letter-spacing: 0.05em;
+  line-height: 24px;
+}
+
+.link-footer{
+  display:flex ;
+  justify-content:center;
+  margin:40px 0;
+  list-style: none;
+  font-size:18px;
+} 
+
+.link-footer a{
+  text-decoration: none;
+  align-items: end;   
+}
